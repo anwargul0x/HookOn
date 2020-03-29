@@ -15,7 +15,17 @@
   - 
 
 
+# React Native Firebase
+
+```
+yarn add react-native-firebase
+```
 # Fastlane
 ### _Steps_
+
 <pre>xcode-select --install</pre>
 <pre>brew install fastlane</pre>
+
+ Go to _Project/android/_  in the terminal
+
+<pre>fastlane init</pre>

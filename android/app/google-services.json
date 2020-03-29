@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "215854322891",
+    "firebase_url": "https://react-native-hookon.firebaseio.com",
+    "project_id": "react-native-hookon",
+    "storage_bucket": "react-native-hookon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215854322891:android:b0d9053f52234b1100774e",
+        "android_client_info": {
+          "package_name": "com.hookon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215854322891-sr1fdfi12h6nj86mbos0uqh2o1th2s18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv5hUU-9SaS2ScDkzZmtL-avddQH6GB7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215854322891-sr1fdfi12h6nj86mbos0uqh2o1th2s18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
