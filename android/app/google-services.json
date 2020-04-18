@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1056256636551",
+    "firebase_url": "https://reactnative-signin-googl.firebaseio.com",
+    "project_id": "reactnative-signin-googl",
+    "storage_bucket": "reactnative-signin-googl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056256636551:android:a1b4b61696f5f1e1de2a22",
+        "android_client_info": {
+          "package_name": "com.hookon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056256636551-clkhbohpbn7hgtrhrq2so4tc3pd0gmv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hookon",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1056256636551-9e8efi74jvubaqm60ku1nskg2co8r6to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoINTM3sObogv5hcNJzTmYD45IfwD8b0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056256636551-9e8efi74jvubaqm60ku1nskg2co8r6to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
