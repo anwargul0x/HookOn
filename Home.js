@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, View, Image, Text, TouchableOpacity} from 'react-native';
 
 const Home = props => {
+  
   return (
     <View style={styles.wrapper}>
       <View style={styles.avatar_box}>

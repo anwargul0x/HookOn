@@ -1,11 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import {SafeAreaView, StyleSheet, View, Text, StatusBar} from 'react-native';
 
 import {
   GoogleSignin,
@@ -29,7 +23,7 @@ const App: () => React$Node = () => {
     });
   }, []);
 
-  signIn = async () => {
+  const signIn = async () => {
     try {
       await GoogleSignin.hasPlayServices();
       const info = await GoogleSignin.signIn();
@@ -48,8 +42,10 @@ const App: () => React$Node = () => {
     }
   };
 
-  signOut = async () => {
+  const signOut = async () => {
     try {
+      const TOKEN = await GoogleSignin.getTokens();
+      console.warn({TOKEN});
       await GoogleSignin.revokeAccess();
       await GoogleSignin.signOut();
       setUserInfo(null); // Remember to remove the user from your app's state as well
